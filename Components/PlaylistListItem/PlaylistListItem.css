@@ -1,0 +1,26 @@
+.PlaylistItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(256, 256, 256, .8);
+  margin-bottom: .22rem;
+  padding-left: .22rem;
+}
+
+.PlaylistItem h2 {
+  color: rgba(256, 256, 256, .05);
+  font-style: italic;
+}
+
+.PlaylistItem:hover h2 {
+  color: #fff;
+}
+
+.PlaylistItem:hover {
+  background-image: linear-gradient(to right, rgba(108, 65, 233, .75), rgba(108, 65, 233, .05));
+  cursor: pointer;
+}
+
+h3 {
+  color: rgba(256, 256, 256, .4);  
+}
